@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "ufhealth",
+    "plugin:react/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "16.5"
+    }
+  },
+  "globals": {
+    "wp": true
+  },
+  "rules": {
+    "no-unused-vars": [2, {
+      "varsIgnorePattern": "(^createElement$)"
+    }],
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/display-name": "off"
+  }
+}
