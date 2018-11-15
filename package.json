@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-ufhealth-wordpress",
+  "description": "A shareable eslint config for WordPress-specific UF Health projects",
+  "version": "1.0.0",
+  "author": "UF Health Web Services <webservices@ahc.ufl.edu>",
+  "contributors": [
+    "Kyle Tucker <k.tucker@ufl.edu>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ufhealth/eslint-config-ufhealth-wordpress",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ufhealth/eslint-config-ufhealth-wordpress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ufhealth/eslint-config-ufhealth-wordpress/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "ufhealth"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-ufhealth-wordpress": "^1.0.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0"
+  }
+}
